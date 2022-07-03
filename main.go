@@ -16,13 +16,13 @@ var groovy = "<svg role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/
 func main() {
 	r := gin.Default()
 
-	total := javaScript + "\n"
-	total += golang + "\n"
-	total += python + "\n"
-	total += csharp + "\n"
-	total += c + "\n"
-	total += cpp + "\n"
-	total += groovy + "\n"
+	total := javaScript + "<br>"
+	total += golang + "<br>"
+	total += python + "<br>"
+	total += csharp + "<br>"
+	total += c + "<br>"
+	total += cpp + "<br>"
+	total += groovy + "<br>"
 
 	r.POST("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{
