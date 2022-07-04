@@ -4,24 +4,133 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    button {
+        background: #00000000;
+        color: #00000000;
+        border: #00000000;
+    }
+</style>
 <body>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.js}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.golang}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.python}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.csharp}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.c}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.cpp}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.groovy}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.ruby}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.kotlin}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.java}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.typeScript}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.spring}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.springBoot}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.unity}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.unreal}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.vue}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.node}}"/></svg>
-<svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="{{.nodeRed}}"/></svg>
+    <form method="get">
+        <button type="submit" name="type" value="js">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.js}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="golang">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.golang}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="python">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.python}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="csharp">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.csharp}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="c">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.c}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="cpp">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.cpp}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="groovy">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.groovy}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="ruby">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.ruby}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="kotlin">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.kotlin}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="java">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.java}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="typeScript">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.typeScript}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="spring">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.spring}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="springBoot">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.springBoot}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="unity">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.unity}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="unreal">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.unreal}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="vue">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.vue}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="node">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.node}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="nodeRed">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.nodeRed}}"/>
+            </svg>
+        </button>
+
+        <button type="submit" name="type" value="vscode">
+            <svg width="50" height="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{.vscode}}"/>
+            </svg>
+        </button>
+    </form>
+
+    <h1>{{.text | upper}}</h1>
+    <svg width="100" height="100" style="fill: aqua" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="{{.image}}"/>
+    </svg>
 </body>
 </html>
